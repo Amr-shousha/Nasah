@@ -30,6 +30,49 @@
 body{
 }
 
+
+.container{
+     font-family:"ExpoArabic" ;
+     margin-top: 100px;
+     position: relative;
+
+}
+
+/* need to add to index file boot the foilloing item */
+  .section-title-Btn {     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .section-title-Btn .button{
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+overflow: hidden;
+ }
+ .section-title-Btn .button:hover{
+    color: var(--light-color);
+    border-radius: 10px;
+
+ }
+
+ .section-title h1{
+margin: 20px 0;
+font-size: 30px;
+ }
+.section-title .disc{
+color: var(--gray-color);
+font-size: 20px;
+}
+.section-title .intro{
+color: var(--primary-color);
+
+}
+
+
 /* button */
  .button{
     
@@ -274,3 +317,8 @@ header .mainContent #header-btn{
     font-size: 16px;
 
  }
+ #pattern{
+    position: absolute;
+    z-index: 0;
+    left: -500px;
+}
