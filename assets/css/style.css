@@ -193,12 +193,14 @@ left: 0 ;
 
 /* header */
 header .mainContent #mainImg{
-
+     left: 0;
+     top: 0;
     width:500px;
     /* transition: all ease ; */
     animation: rotate 30s linear infinite alternate ;
  }
  header .mainContent{
+    position: relative;
     margin-top: 70px;
     margin-bottom: 20px;
  }
