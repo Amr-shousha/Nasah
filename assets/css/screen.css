@@ -1,39 +1,247 @@
 @media (max-width:1440px) and (min-width:1201px){
 
     
-    
+
 }
 @media (max-width:1200px) and (min-width:1025px){
- 
+
+  
+header #featuresContainer {
+    gap: 10px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 10px !important ;
+   
+}
+
+
 }
 
 
 @media (max-width:1024px) and (min-width:993px){
   
 
+
+
 }
+
 @media (max-width:992px) and (min-width:769px){
     
+   header .mainContent h1 {
+    font-size: 30px !important;
+    font-weight: 700;
+    
+}
+header .mainContent p {
+   padding: 10px 0;
+   width: 400px;
+}
+header .mainContent .button {
    
+   width: 50%;
+}
+  
+header #featuresContainer {
+    gap: 5px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 0px !important ;
+   
+}
+
+
+
+
 
 }
 @media (max-width:768px) and (min-width:577px){
+ 
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+    margin-top: 100px !important;
+ }
+   header .mainContent h1 {
+    font-size: 25px !important;
+    font-weight: 600;
+    
+}
+header .mainContent p {
+   padding: 10px 0;
+   
+}
+
+  
+header #featuresContainer {
+    gap: 5px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 0px !important ;
+   
+}
+
 
 
 }
 @media (max-width:576px) and (min-width:426px){
+
+    
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     text-align: center;
+    margin-top: 100px !important;
+ }
+   header .mainContent h1 {
+    font-size: 25px !important;
+    font-weight: 600;
+    
+}
+header .mainContent p {
+   padding: 10px 0;
+  width: auto;
+}
+header .mainContent .button {
+   
+   width: 50%;
+}
+  
+header #featuresContainer {
+    gap: 5px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 0px !important ;
+   
+}
+
+
    
 }
 @media (max-width:425px) and (min-width:376px){
     
     
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px !important;
+ }
+   header .mainContent h1 {
+    font-size: 25px !important;
+    font-weight: 600;
+    
+}
+header .mainContent p {
+   padding: 10px 0;
+  width: auto;
+}
+
+  
+header #featuresContainer {
+    gap: 5px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 0px !important ;
+   
+}
+
+
 }
 @media (max-width:375px) and (min-width:321px){
     
     
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+     text-align: center;
+    justify-content: center;
+    
+    margin-top: 100px !important;
+ }
+   header .mainContent h1 {
+    font-size: 25px !important;
+    font-weight: 600;
+    
+}
+header .mainContent p {
+   padding: 10px 0;
+  width: auto;
+}
+
+  
+header #featuresContainer {
+    gap: 5px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 0px !important ;
+   
+}
+
+ header button{
+   width: 190px;
+        padding: 8px 0px !important;
+  
+   
+    
+
+}
 }
 @media (max-width:320px){
-    
+    #headerText{
+        padding-right:0px !important;
+         padding-left:0px !important;
+    }
    
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+     text-align: center;
+    justify-content: center;
+    
+    margin-top: 100px !important;
+ }
+   header .mainContent h1 {
+    font-size: 25px !important;
+    font-weight: 600;
+    
+}
+header .mainContent p {
+   padding: 10px 0;
+  width: auto;
+}
+
+header #featuresContainer {
+    gap: 5px !important;
+}
+header #featuresContainer .feature-card {
+    
+    padding: 20px 0px !important ;
+   
+}
+
+  header button{
+   width: 190px;
+        padding: 8px 0px !important;
+  
+   
+    
+
+}
+ header #header-btn  p{
+ display: none !important;
+}
+
+
 }
 
