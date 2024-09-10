@@ -58,7 +58,9 @@ overflow: hidden;
     border-radius: 10px;
 
  }
-
+ .section-title {
+    text-align: right;
+ }
  .section-title h1{
 margin: 20px 0;
 font-size: 30px;
@@ -321,4 +323,51 @@ header .mainContent #header-btn{
     position: absolute;
     z-index: 0;
     left: -500px;
+}
+
+.trust-section .container{
+    
+justify-content: space-between;
+position: relative;
+z-index: 2;
+
+}.trust-section #trust-cards{
+      display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px !important;
+    max-width: 800px;
+}
+.mainImg{
+    /* margin-left: -30px; */
+}
+.trust-section .card img{
+    position: absolute;
+    top: 10;
+    right: -4px;
+}
+.trust-section .card h3{
+    margin-bottom: 10px;
+}
+.trust-section .card{
+    position: relative;
+    background-color: var(--light-color);
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+
+}
+#about-container{
+    gap: 20px !important;
+    width:100%;
+   
+}
+
+#mainContent{
+    /* width: 600px; */
+   
+}
+.experience-image{
+    width: 400px;
+    height: min-content;
+    margin: auto;
 }
