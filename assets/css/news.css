@@ -1,0 +1,29 @@
+
+.news .input {
+    position: relative;
+text-align: right;
+margin-bottom: 30px;
+}
+.news .input  img{
+    position: absolute;
+    top: 30;
+    right: 10;
+}
+.news .input input {
+    padding: 0 40px;
+width: 60%; 
+height: 40px;
+   margin-top: 20px;
+    text-align: right;
+border:1px solid #6461615c;
+}
+#pages{
+    width: 300px;
+text-align: center;
+}
+#img-container{
+   
+    display: flex;
+    justify-content: center;
+
+}

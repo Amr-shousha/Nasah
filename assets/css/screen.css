@@ -689,6 +689,9 @@ width: 100%;
 #mainformContainer{
     flex-direction: column  !important;
 }
+.blog-section .image-slide img, .news .image-slide img {
+    width: 250px !important;
+}
 }
 @media (max-width:320px){
 
@@ -817,7 +820,7 @@ header .mainContent  .smaller-header-btn{
     display: none ;
 }
 #mainformContainer{
-    flex-direction: column  ;
+    flex-direction: column !important ;
 }
 #mainformContainer form{
     width: 100% ;
@@ -832,6 +835,9 @@ header .mainContent  .smaller-header-btn{
 #mainformContainer form textarea {
 width: 100%;
 
+}
+.blog-section .image-slide img, .news .image-slide img {
+    width: 250px !important;
 }
 
 }
