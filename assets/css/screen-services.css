@@ -1,0 +1,12 @@
+@media (max-width:765px) {
+    .stories .card-container .card .content {
+
+        align-items: center !important;
+        text-align: center;
+    }
+    .stories .card-container .card img {
+        width: 100%;
+    }
+
+    
+}
