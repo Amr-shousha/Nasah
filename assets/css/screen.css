@@ -17,6 +17,12 @@
     flex-wrap: nowrap !important;
  }
 
+ header .mainContent  .bigger-header-btn{
+   display:flex !important ;
+   
+
+ }
+
 }
 
 @media (max-width:1440px) and (min-width:1201px){
@@ -37,6 +43,11 @@
  }
  .services-section #mainContent{
     flex-wrap: nowrap !important;
+ }
+ header .mainContent  .bigger-header-btn{
+   display:flex !important ;
+   
+
  }
 
 }
@@ -65,7 +76,11 @@ header #featuresContainer .feature-card {
     padding: 20px 10px !important ;
    
 }
+header .mainContent  .bigger-header-btn{
+   display:flex !important ;
+   
 
+ }
 .experience{
     flex-wrap: wrap !important;
    
@@ -136,6 +151,11 @@ gap: 10px !important;
     width: 500px !important;
 }
 
+header .mainContent  .bigger-header-btn{
+   display:flex !important ;
+   
+
+ }
 
 }
 
@@ -193,7 +213,21 @@ gap: 10px !important;
 .gallery-section .slider img{
  width: 300px;
 }
+header .mainContent  .bigger-header-btn{
+   display:flex !important ;
+   
 
+ }
+ .form #smaller-img{
+    display: flex !important ;
+} 
+.form #bigger-img{
+    display: none ;
+}
+ #mainformContainer{
+    display: flex !important;
+    flex-direction:column !important ;
+}
 
 
 }
@@ -226,6 +260,14 @@ header #featuresContainer .feature-card {
     padding: 20px 0px !important ;
    
 }
+/* #header-btn {
+    display: flex;
+    flex-direction: column !important;
+} */
+header .mainContent  .smaller-header-btn{
+   display:flex !important;
+
+ }
 
   
 #about-container{
@@ -268,6 +310,16 @@ gap: 10px !important;
 .section-title-Btn  .button{
     width: 220px !important;
 }
+.form #smaller-img{
+    display: flex !important ;
+} 
+.form #bigger-img{
+    display: none ;
+}
+ #mainformContainer{
+    
+    flex-direction:column !important ;
+}
 
 }
 @media (max-width:576px) and (min-width:426px){
@@ -302,6 +354,10 @@ header #featuresContainer .feature-card {
     padding: 20px 0px !important ;
    
 }
+header .mainContent  .smaller-header-btn{
+   display:flex !important;
+
+ }
 
   
 #about-container{
@@ -347,6 +403,45 @@ gap: 10px !important;
 .section-title-Btn  .button{
     width: 220px !important;
 }
+.services-section #secImg{
+    min-width: 400px !important;
+}
+.services-section #secImg .img img{
+   
+   width: 250px !important;
+  }
+  #cimematic{
+    width: 100% !important;
+  }
+  .form #smaller-img{
+    display: flex !important ;
+     width: 100%;
+} 
+.form #bigger-img{
+    display: none ;
+}
+ .form{
+    flex-direction:column !important ;
+}
+#mainformContainer{
+    
+    flex-direction:column !important ;
+    
+}
+#mainformContainer form{
+    width: 100%;
+}
+#mainformContainer form tr{
+    display: flex !important;
+    flex-direction: column !important;
+}
+#mainformContainer form tr input{
+    width: 100%;
+}
+#mainformContainer form textarea {
+width: 100%;
+
+}
 
 }
 @media (max-width:425px) and (min-width:376px){
@@ -378,6 +473,10 @@ header #featuresContainer .feature-card {
     padding: 20px 0px !important ;
    
 }
+header .mainContent  .smaller-header-btn{
+   display:flex !important;
+
+ }
   
 #about-container{
     align-items: center ;
@@ -393,6 +492,19 @@ header #featuresContainer .feature-card {
     margin: auto;
 }
 
+.section-title-Btn  .button{
+    width: 220px !important;
+}
+.services-section #secImg{
+    min-width: 400px !important;
+}
+.services-section #secImg .img img{
+   
+   width: 250px !important;
+  }
+  #cimematic{
+    width: 100% !important;
+  }
 
 .mainImg{
     width: 400px !important;
@@ -420,7 +532,34 @@ gap: 10px !important;
     width: 220px !important;
 }
 
+.form #smaller-img{
+    display: flex !important ;
+     width: 100%;
+} 
+.form #bigger-img{
+    display: none ;
+}
+ .form{
+    flex-direction:column !important ;
+}
 
+#mainformContainer form{
+    width: 100%;
+}
+#mainformContainer form tr{
+    display: flex !important;
+    flex-direction: column !important;
+}
+#mainformContainer form tr input{
+    width: 100%;
+}
+#mainformContainer form textarea {
+width: 100%;
+
+}
+#mainformContainer{
+    flex-direction: column !important ;
+}
 
 }
 @media (max-width:375px) and (min-width:321px){
@@ -443,6 +582,23 @@ header .mainContent p {
    padding: 10px 0;
   width: auto;
 }
+header .mainContent  .smaller-header-btn{
+   display:flex !important;
+
+ }
+ .section-title-Btn  .button{
+    width: 220px !important;
+}
+.services-section #secImg{
+    min-width: 400px !important;
+}
+.services-section #secImg .img img{
+   
+   width: 250px !important;
+  }
+  #cimematic{
+    width: 100% !important;
+  }
 
   
 header #featuresContainer {
@@ -496,7 +652,7 @@ gap: 10px !important;
    margin-bottom: 20px;
     
 }
-.section-title-Btn 
+/* .section-title-Btn  */
 .section-title{
     flex-direction: column;
     align-items: center;
@@ -506,9 +662,59 @@ gap: 10px !important;
 .section-title-Btn  .button{
     width: 220px !important;
 }
+.form #smaller-img{
+    display: flex !important ;
+    width: 100%;
+} 
+.form #bigger-img{
+    display: none ;
+}
+ .form{
+    flex-direction:column !important ;
+}
+#mainformContainer form{
+    width: 100%;
+}
+#mainformContainer form tr{
+    display: flex !important;
+    flex-direction: column !important;
+}
+#mainformContainer form tr input{
+    width: 100%;
+}
+#mainformContainer form textarea {
+width: 100%;
 
 }
+#mainformContainer{
+    flex-direction: column  !important;
+}
+}
 @media (max-width:320px){
+
+ .section-title-Btn  .button{
+    width: 220px !important;
+}
+.services-section #secImg{
+    min-width: 400px !important;
+}
+.services-section #secImg .img img{
+   
+   width: 250px !important;
+  }
+  #cimematic{
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+  
+  } 
+  .services-section #mainImg p{
+ position: relative !important;
+ text-align: center;
+ right: 0% !important;
+  }
+
+ 
     #headerText{
         padding-right:0px !important;
          padding-left:0px !important;
@@ -595,7 +801,38 @@ gap: 10px !important;
     width: 120px !important;
     font-size: 16px;
 }
+header .mainContent  .smaller-header-btn{
+   display:flex !important;
 
+ }
+ .gallery-section .slider img {
+    width: 100%;
+ }
+
+ .form #smaller-img{
+    display: flex !important ;
+     width: 100%;
+} 
+.form #bigger-img{
+    display: none ;
+}
+#mainformContainer{
+    flex-direction: column  ;
+}
+#mainformContainer form{
+    width: 100% ;
+}
+#mainformContainer form tr{
+    display: flex !important;
+    flex-direction: column !important;
+}
+#mainformContainer form tr input{
+    width: 100%;
+}
+#mainformContainer form textarea {
+width: 100%;
+
+}
 
 }
 
