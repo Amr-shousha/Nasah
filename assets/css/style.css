@@ -665,3 +665,98 @@ color: var(--light-color);
 /* .form #bigger-img{
     display: none ;
 } */
+
+
+
+/* footer */
+
+footer .container{
+   padding: 40px 0;
+
+ 
+}
+footer {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    width: 100%;
+   
+     /* position: fixed;
+     bottom: 0;
+     z-index: 99; */
+   
+}
+
+
+footer #mainfootercontent h4{
+    margin: 10px 0;
+}
+footer #mainfootercontent {
+    width: 50%;
+     margin: 10px 0;
+}
+
+footer #pages{
+   
+   gap: 10px;
+}
+footer #pages a{
+   color: var(--light-color);
+font-size: small;
+text-decoration: none;
+} 
+footer #contact img{
+position: absolute;
+right: -30px;
+}
+footer  p{
+   margin-bottom: 0px !important;
+}
+
+#phone,#email{
+    position: relative;
+}
+#phone h5{
+    margin-bottom: 10px;
+}
+#email h5{
+    margin-bottom: 10px;
+   
+}
+ #phone img{
+    position: absolute;
+    right: -30;
+ }
+ #email img{
+   position: absolute;
+   right: -30;
+}
+
+
+
+
+footer .contactContainer{
+    padding: 10px 0;
+   
+    align-items: center;
+
+border-top: var(--light-color) solid 1px;
+}
+ footer #contactSection img{
+    margin-right: 10px;
+    
+    
+ }
+ .color{
+    fill: gold;
+     color : "red";
+ }
+ footer #contactSection{
+    
+    width: 100%;
+ }
+ .contactContainer{
+    margin:0px;
+  }
+  #reviews .slide{
+    margin-top: 20px;
+  }
