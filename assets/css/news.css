@@ -21,9 +21,15 @@ border:1px solid #6461615c;
     width: 300px;
 text-align: center;
 }
-#img-container{
-   
+#button-container{
+   margin-top: 20px;
     display: flex;
     justify-content: center;
 
+}
+#button-container .btn{
+    border: 1px solid;
+}
+.btn-group{
+    gap: 20px;
 }
