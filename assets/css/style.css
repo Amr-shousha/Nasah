@@ -595,6 +595,9 @@ padding-bottom: 5px;
     color: var(--primary-color);
     text-decoration: none;
 }
+.overflow{
+    overflow: hidden;
+}
 
 /* form */
 form table{

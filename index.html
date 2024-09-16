@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/css/screen.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-      
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light ">
@@ -63,10 +64,10 @@
             <div class="mainContent d-flex align-items-center ">
             <div id="headerText" class="col-lg-9  col-md-9 col-sm-12 ">
                 <p class="intro">إبداع في الفن والتسويق الرقمي </p>
-                <h1>  تجربة إبداعية في الإعلام والتسويق الرقمي</h1>
+                <h1 id="try">  تجربة إبداعية في الإعلام والتسويق الرقمي</h1>
                 <p class="disc"> نحن القصة التي تحكى بالصور والأفكار، نصنع المستحيل في عالم الإبداع والتواص </p>
                 <div id="header-btn " class=" bigger-header-btn ">
-                    <button class="button ">اكتشف المزيد</button>
+                    <button class="button " >اكتشف المزيد</button>
                   
                          <img  src="assets/images/icons/video_circle.svg" alt="">
                          <p style="margin-bottom: 0px;">شاهد الفيديو</p>
@@ -75,9 +76,9 @@
                    
                 </div>
 
-                 <div id="header-btn " class=" smaller-header-btn">
-                    <button class="button  ">اكتشف المزيد</button>
-                  <div class="d-flex">
+                 <div id="header-btn  " class=" smaller-header-btn">
+                    <button class="button  " >اكتشف المزيد</button>
+                  <div class="d-flex try1">
                        <img  src="assets/images/icons/video_circle.svg" alt="">
                          <p style="margin-bottom: 0px;">شاهد الفيديو</p>
                   </div>
@@ -345,17 +346,23 @@
             </div>
             <div class="image-slider d-flex flex-wrap justify-content-center">
                  <div class="image-slide">
+              <div class="overflow">
                     <img src="/assets/images/news/new_1.png" class="card-animation-2" alt="">
-                    <p class="slider-date">Nov 29, 2024</p>
+
+                  </div>                    <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
                 </div>  <div class="image-slide">
+                     <div class="overflow">
                     <img src="/assets/images/news/new_2.png" class="card-animation-2" alt="">
+                    </div>
                     <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
                 </div>  <div class="image-slide">
+                     <div class="overflow">
                     <img src="/assets/images/news/new_3.png" class="card-animation-2" alt="">
+                    </div>
                     <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
@@ -381,24 +388,36 @@
             </div>
             <div class="image-slider  d-flex flex-wrap justify-content-center">
                  <div class="image-slide">
+                  <div class="overflow">
                     <img src="/assets/images/news/new_1.png" class="card-animation-2" alt="">
+
+                  </div>
                     <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
                 </div>  <div class="image-slide">
+                   <div class="overflow">
                     <img src="/assets/images/news/new_2.png" class="card-animation-2" alt="">
+
+                   </div>
                     <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
                 </div> 
                  <div class="image-slide">
+                    <div class="overflow">
                     <img src="/assets/images/news/new_3.png" class="card-animation-2" alt="">
+
+                    </div>
                     <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
                 </div>
                  <div class="image-slide">
+                <div class="overflow">
+
                     <img src="/assets/images/news/new_3.png" class="card-animation-2" alt="">
+                    </div>
                     <p class="slider-date">Nov 29, 2024</p>
                     <h3 class="slider-title">مشاركتنا في معرض الإعلام الدولي</h3>
                     <a href="#">اقرأ المزيد</a>
@@ -451,7 +470,7 @@
                     </div>
                 </div>  <div class="slide"> 
            
-                  <div>                    <img src="assets/images/jobs/job_4.png" class="card-animation-2" alt="">
+                  <div class="overflow" >                    <img src="assets/images/jobs/job_4.png" class="card-animation-2" alt="">
 </div>
                     <div class=" content">
                     <h4>مصمم جرافيك محترف</h4>
@@ -640,10 +659,19 @@
           
 
 
-
-
+      <script src="assets/js/script.js"></script>
     <script src="assets/js/lib/jquery.slim.min.js"></script>
     <script src="assets/js/lib/popper.min.js"></script>
     <script src="assets/js/lib/bootstrap.min.js"></script>
+
     </body>
 </html>
+
+
+<!-- 
+  swiper for swippers (package)
+  fancybox for popups (package)
+  wow animation
+  cpanel
+
+ -->
